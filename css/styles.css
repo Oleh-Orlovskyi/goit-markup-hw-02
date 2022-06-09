@@ -1,6 +1,4 @@
-body{
 
-}
 
 
 .my-button:hover,
@@ -9,6 +7,12 @@ body{
 background-color: #2196F3;
 color: #ffffff;
 font-size: 16px;
+}
+
+.my-button
+{
+   background-color: #F5F4FA;
+    color: #212121;
 }
 
 
