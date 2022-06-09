@@ -1,3 +1,10 @@
+body
+{
+font-family: roboto, Arial, Helvetica, sans-serif ;
+/*color: #ffffff;*/
+}
+
+
 
 .my-logo
 {
@@ -29,6 +36,7 @@ font-size: 16px;
 {
    background-color: #F5F4FA;
     color: #212121;
+    cursor: pointer;
 }
 
 
@@ -40,6 +48,7 @@ font-size: 16px;
 
 .my-anchor {
     color: #212121;
+    
 }
 
 
@@ -52,4 +61,8 @@ font-size: 16px;
 
 .my-contacts {
     color: #757575;
+}
+
+.point {
+    list-style: none;
 }
