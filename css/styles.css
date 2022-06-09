@@ -1,3 +1,35 @@
 body{
 
 }
+
+
+.my-button:hover,
+.my-button:focus
+{
+background-color: #2196F3;
+color: #ffffff;
+font-size: 16px;
+}
+
+
+.my-anchor:hover,
+.my-anchor:focus
+{
+    color: #2196F3;
+}
+
+.my-anchor {
+    color: #212121;
+}
+
+
+
+.my-contacts:hover,
+.my-contactsr:focus 
+{
+    color: #2196F3;
+}
+
+.my-contacts {
+    color: #757575;
+}
