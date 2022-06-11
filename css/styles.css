@@ -45,6 +45,7 @@ color: var(--black-txt-color);
 }
 
 .button {
+    font-weight: 500;
     font-family: inherit;
     font-size: 16px;
     line-height: 1.62;
@@ -223,4 +224,32 @@ color: var(--dark-txt-color);
     letter-spacing: 0.03em;
 background-color: var(--whitness-bg-color);
     color: var(--dark-txt-color);
+}
+
+.portfolio-btn
+{
+    background-color: var(--white-bg-color);
+}
+
+.portfolio-bg
+{
+    background-color: var(--white-bg-color);
+    border: 1px solid #EEEEEE;
+}
+
+.projects
+{
+    font-size: 18px;
+        line-height: 2.00;
+        letter-spacing: 0.06em;
+        color: var(--dark-txt-color);
+}
+
+.project-type
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--gray-txt-color);
 }
