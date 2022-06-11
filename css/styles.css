@@ -1,13 +1,13 @@
 body
 {
-font-family: roboto, Arial, Helvetica, sans-serif ;
+font-family: "roboto", Arial, Helvetica, sans-serif ;
 font-size: 14px;
-/*color: #ffffff;*/
+color: #757575;
 }
 
 
 
-.logo-title-1
+.logo-header
 {
     font-family: 'Raleway';
     color: #2196F3;
@@ -19,10 +19,9 @@ font-size: 14px;
     text-decoration: none;
 }
 
-.logo-title-2
+.logo-header-part-2
 {
-    color: #000000;
-   
+    color: #000000;   
 }
 
 .button {
@@ -48,6 +47,8 @@ font-size: 16px;
 .anchor {
     color: #212121;
     cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .anchor:hover,
@@ -59,6 +60,8 @@ font-size: 16px;
 
 .contacts {
     color: #757575;
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 
@@ -78,4 +81,39 @@ font-size: 16px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #2196F3;
+}
+
+.address-style
+{
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}
+
+.footer-contacts
+{
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    }
+
+/*.footer-bg
+{
+    background: #2F303A;
+}*/
+
+.logo-footer
+{
+font-family: 'Raleway';
+color: #2196F3;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19px;
+letter-spacing: 0.03em;
+text-decoration: none;
+}
+
+.logo-footer-part-2 {
+    color: #ffffff;
+
 }
