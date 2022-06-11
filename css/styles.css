@@ -1,12 +1,13 @@
 body
 {
 font-family: roboto, Arial, Helvetica, sans-serif ;
+font-size: 14px;
 /*color: #ffffff;*/
 }
 
 
 
-.my-logo
+.logo-title-1
 {
     font-family: 'Raleway';
     color: #2196F3;
@@ -18,51 +19,63 @@ font-family: roboto, Arial, Helvetica, sans-serif ;
     text-decoration: none;
 }
 
-.my-article
+.logo-title-2
 {
     color: #000000;
    
 }
 
-.my-button:hover,
-.my-button:focus
+.button {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    background-color: #F5F4FA;
+    color: #212121;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus
 {
 background-color: #2196F3;
 color: #ffffff;
 font-size: 16px;
 }
 
-.my-button
-{
-   background-color: #F5F4FA;
+
+
+.anchor {
     color: #212121;
     cursor: pointer;
 }
 
-
-.my-anchor:hover,
-.my-anchor:focus
+.anchor:hover,
+.anchor:focus
 {
     color: #2196F3;
 }
 
-.my-anchor {
-    color: #212121;
-    
-}
 
-
-
-.my-contacts:hover,
-.my-contactsr:focus 
-{
-    color: #2196F3;
-}
-
-.my-contacts {
+.contacts {
     color: #757575;
 }
 
-.point {
+
+.contacts:hover,
+.contactsr:focus 
+{
+    color: #2196F3;
+}
+
+
+.no-points {
     list-style: none;
+}
+
+.current {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
 }
