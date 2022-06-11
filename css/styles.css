@@ -9,6 +9,7 @@
     --whitness-bg-color: #F5F4FA;
     --blue-bg-color: #2196f3;
     --darkness-bg-color: #2F303A;
+    --white-bg-color: #ffffff;
 }
 
 
@@ -119,9 +120,13 @@ color: var(--white-txt-color);
     color: var(--white-txt-color);
 }
 
+.footer-bg
+{
+background-color:var(--darkness-bg-color)
+}
+
 .footer-contacts
 {
-    background-color: #2F303A; /*тимчасово*/
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--white-txt-color);
@@ -138,10 +143,9 @@ letter-spacing: 0.03em;
 text-decoration: none;
 }
 
-.logo-footer-part-2 {
-    background-color: #2F303A; /*тимчасово*/
-    color: var(--white-txt-color);
-
+.logo-footer-part-2 
+{
+       color: var(--white-txt-color);
 }
 
 .hero
@@ -197,4 +201,18 @@ color: var(--dark-txt-color);
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--gray-txt-color);
+}
+
+.bg-team
+{
+    background-color: var(--white-bg-color)
+}
+
+.our-team {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+background-color: var(--whitness-bg-color);
+    color: var(--dark-txt-color);
 }
