@@ -20,7 +20,7 @@ font-family: "roboto", Arial, Helvetica, sans-serif;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.71;
-color: var(--black-txt-color);
+color: var(--dark-txt-color);
 }
 
 .header-bg
@@ -52,7 +52,6 @@ color: var(--black-txt-color);
     line-height: 1.62;
     letter-spacing: 0.03em;
     background-color: var(--whitness-bg-color);
-    color: var(--black-txt-color);
     cursor: pointer;
 }
 
@@ -82,7 +81,6 @@ position: centr;
 
 .anchor {
     color: var(--dark-txt-color);
-    cursor: pointer;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -175,7 +173,7 @@ text-decoration: none;
     line-height: 1.14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--dark-txt-color);
+   
 }
 
 .description
@@ -193,15 +191,16 @@ text-decoration: none;
     text-align: center;
     letter-spacing: 0.03em;
 background-color: var(--white-bg-color);
-    color: var(--dark-txt-color);
 }
+
+
 .team
 {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: var(--dark-txt-color);
+
 }
 
 .prof
@@ -219,12 +218,9 @@ color: var(--dark-txt-color);
 }
 
 .our-team {
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
+   
 background-color: var(--whitness-bg-color);
-    color: var(--dark-txt-color);
+   
 }
 
 .portfolio-btn
@@ -243,7 +239,7 @@ background-color: var(--whitness-bg-color);
     font-size: 18px;
         line-height: 2.00;
         letter-spacing: 0.06em;
-        color: var(--dark-txt-color);
+       
 }
 
 .project-type
@@ -254,3 +250,4 @@ background-color: var(--whitness-bg-color);
     letter-spacing: 0.03em;
     color: var(--gray-txt-color);
 }
+
