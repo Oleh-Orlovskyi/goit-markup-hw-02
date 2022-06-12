@@ -105,7 +105,7 @@ position: centr;
 
 
 .contacts:hover,
-.contactsr:focus 
+.contacts:focus 
 {
     color: var(--blue-txt-color);
 }
@@ -130,7 +130,15 @@ position: centr;
     letter-spacing: 0.03em;
     color: var(--white-txt-color);
     text-decoration: none;
+   
 }
+
+.address-style:hover,
+.address-style:focus
+{
+    color: var(--blue-txt-color);
+}
+
 
 .footer-bg
 {
@@ -143,6 +151,7 @@ background-color:var(--darkness-bg-color)
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--whitness-txt-color);
+    font-style: normal;
     }
 
 .logo-footer
@@ -153,6 +162,7 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 text-decoration: none;
+word-spacing: -0.25em;
 }
 
 .logo-footer-part-2 
@@ -186,6 +196,7 @@ text-decoration: none;
     line-height: 1.71;
     letter-spacing: 0.03em;
    text-transform: none;
+   color: var(--gray-txt-color);
 }
 
 .our-team, .about
